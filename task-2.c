@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
 
     int ch;
     while ((ch = getc(stdin)) != EOF) {
-        if (ch == 6) {
+        if (ch == '#') {
             break;
         }
         if (putc(ch, f) == EOF) {
